@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUNG</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Noto+Sans&family=Source+Sans+Pro&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Noto+Sans&family=Source+Sans+Pro&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Sans+Pro&display=swap');
+    h1 {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 50px;
+        color: black;
+        text-align: center;
+    }
+    h2{
+        font-family: 'Noto Sans', sans-serif;
+        color: black;
+    }
+    * {
+box-sizing: border-box;
+}
+.column {
+float: left;
+width: 33.33%;
+padding: 5px;
+}
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+    @media screen and (max-width: 500px) {
+.column {
+width: 100%;
+}}
+    a:-webkit-any-link {
+color: red;
+cursor: pointer;
+text-decoration: none;
+}
+    body { 
+        background-color: black;
+        background-image: url('donation.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+.formm{
+    font-size: 40px;
+}
+.button {
+  background-color: dimgrey;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    input[type=text] {
+        background-color: black;
+        border: none;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+        width: 30%;
+    padding: 10px 29px;
+    margin: 4px -1px;
+    cursor: default;
+      }
+      input[type=number] {
+        background-color: black;
+        border: none;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+        width: 77%;
+    padding: 10px 29px;
+    margin: 4px -1px;
+    cursor: default;
+      }
+      input[type=date] {
+        background-color: black;
+        border: none;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+        width: 77%;
+    padding: 10px 29px;
+    margin: 4px -1px;
+    cursor: default;
+      }
+      input[type=checkbox] {
+    transform: scale(1.5);
+}
+    </style>
+</style>
+<body>
+        <h1><u>Lung Acceptor</u></h1>
+        <h2>Lung transplantation is designed to offer patients with end-stage lung disease and respiratory failure some hope of a meaningful extension of their lives.
+
+            When the lung transplant team has determined you are an appropriate candidate for lung transplant, they will discuss this treatment option with you in detail and will begin the search for an organ donor.</h2>
+            <h1>What is the transplant waiting list?
+            </h1>
+            <h2>When your transplant center has identified you as an eligible candidate for a lung transplant, the Northeast Ohio Organ Procurement Agency (known as LifeBanc) enters your name and blood type on the United Network for Organ Sharing's (UNOS) computerized national waiting list. This waiting list assures equal access and fair distribution of organs when they become available. The distribution of organs is based on the lung allocation score (LAS). Your score will be determined at each visit and updated by your coordinator. The LAS ranges from 0 to 100 with the sickest patients usually receiving a score of 48 and above.
+
+                When a lung becomes available for transplantation, it is given to the best possible match, based on blood type, size, tissue (HLA) type, recipient's medical condition, cross match compatibility, the length of time the recipient has been waiting, and the number of lungs the recipient needs.</h2>
+                <h1>Where does the new lung come from?</h1>
+                <h2>Donor lungs are located through UNOS. The donor might have recently died or be brain dead, which means that although the donor's body is being kept alive by machines, the brain has no sign of life. Donors give their permission for organ donation before their death. Some state laws require that the donor's family must also give consent for organ donation at the time of the donor's death.
+
+                    An organ recipient and donor must have compatible blood types and similar body sizes. <br>At the time of death, the donor's lung is completely removed, cooled, and stored in a special solution. Immediately after the donor's lung is removed, it is transported to the recipient's transplant center where the transplant takes place as soon as possible.
+                    
+                    Many people who are waiting for transplantation have mixed feelings because they are aware that someone must die before an organ becomes available. It might help to know that many donor families feel a sense of peace knowing that some good has come from their loved one's death.</h2>
+                <br><br><h1 class="formm">PLEASE FILL OUT THE FORM IF YOU WANT TO ACCEPT ORGAN LUNG</h1>
+        <div class="center">
+            <form action="lung.php" method="post">
+                    <input type="text" name="name" id="text" placeholder="Enter your Name: "><br><br>
+                    <input type="text" name="number" id="cnumber" placeholder="Enter your Contact Number: "><br><br>
+                    <input type="text" name="type" id="type" placeholder="Do you want to donate or accept the Organ: "><br><br>
+                    <input type="text" name="appointment" id=appointment placeholder="Enter your appointment date: "><br><br>  
+                    <input type="checkbox" id="checkkbox" name="checkkbox" value="checkkbox">
+                    <label for="checkkbox"> <p style="font-family: 'Noto Sans', sans-serif; color:black; font-size: 20px;">I am doing this in my senses and under doctors advice. I am medically fit. </p></label><br>
+                    <button class="button" type="submit">SUBMIT</button>
+                    <button class="button" type="reset">RESET</button>
+                </form>
+</body>
+</html>

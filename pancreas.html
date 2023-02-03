@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PANCREAS</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Noto+Sans&family=Source+Sans+Pro&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Noto+Sans&family=Source+Sans+Pro&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Sans+Pro&display=swap');
+    h1 {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 50px;
+        color: black;
+        text-align: center;
+    }
+    h2{
+        font-family: 'Noto Sans', sans-serif;
+        color: black;
+    }
+    * {
+box-sizing: border-box;
+}
+.column {
+float: left;
+width: 33.33%;
+padding: 5px;
+}
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+    @media screen and (max-width: 500px) {
+.column {
+width: 100%;
+}}
+    a:-webkit-any-link {
+color: red;
+cursor: pointer;
+text-decoration: none;
+}
+    body { 
+        background-color: black;
+        background-image: url('donation.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+.formm{
+    font-size: 35px;
+}
+.button {
+  background-color: dimgrey;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    input[type=text] {
+        background-color: black;
+        border: none;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+        width: 30%;
+    padding: 10px 29px;
+    margin: 4px -1px;
+    cursor: default;
+      }
+      input[type=number] {
+        background-color: black;
+        border: none;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+        width: 77%;
+    padding: 10px 29px;
+    margin: 4px -1px;
+    cursor: default;
+      }
+      input[type=date] {
+        background-color: black;
+        border: none;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+        width: 77%;
+    padding: 10px 29px;
+    margin: 4px -1px;
+    cursor: default;
+      }
+      input[type=checkbox] {
+    transform: scale(1.5);
+}
+    </style>
+</style>
+<body>
+      <h1><u>Pancreas donation</u></h1>
+      <h2>Your pancreas is the long organ in your abdomen that creates a vital hormone called insulin. Insulin helps your body not to become too high or low in blood sugar. Patients with diabetes are unable to produce insulin adequately.
+
+        Becoming a pancreas donor could mean providing a life-line to people who are living with advanced diabetes.</h2>
+        <h1>Can I be a pancreas donor?</h1>
+<h2>You can choose to become a pancreas donor when you join the Organ Donor Register. Pancreas transplants are not as common as kidney or liver transplants and are often conducted as a double transplant with the kidney.
+
+Donating your pancreas when you die could lead to one of only around 200 pancreas transplants that are performed each year.
+
+Regardless of your own health, we encourage everyone to be a pancreas donor for the following reasons:
+<br>
+1. The health of your pancreas will be assessed before any pancreas transplant takes place<br>
+2. All the major religious faiths support pancreatic donation<br>
+3. There are very few health-related restrictions and most people can donate.<br></h2>
+<h1>Why do people need a pancreas donation?</h1>
+<h2>Almost all pancreatic transplants are done for people with type 1 diabetes and end-stage kidney failure. But this is not considered a normal treatment for diabetes. Most diabetes can be managed with tablets and insulin.
+<br>
+A transplant is only recommended for people who:<br>
+1. Do not respond well to insulin treatment<br>
+2. Have kidney disease, leading to kidney failure<br>
+3. Have frequent and severe hypoglycaemia (where your blood glucose levels drop to dangerously low levels causing symptoms such as dizziness and mental confusion).
+<br>Because both a pancreas and a kidney are needed for this simultaneous operation, it can mean a very long wait for a transplant.<br>
+        <br><br><h1 class="formm">PLEASE FILL OUT THE FORM IF YOU WANT TO DONATE/ACCEPT ORGAN PANCREAS</h1>
+        <div class="center">
+            <form action="pancreas.php" method="post">
+                    <input type="text" name="name" id="text" placeholder="Enter your Name: "><br><br>
+                    <input type="text" name="number" id="cnumber" placeholder="Enter your Contact Number: "><br><br>
+                    <input type="text" name="type" id="type" placeholder="Do you want to donate or accept the Organ: "><br><br>
+                    <input type="text" name="appointment" id=appointment placeholder="Enter your appointment date: "><br><br>  
+                    <input type="checkbox" id="checkkbox" name="checkkbox" value="checkkbox">
+                    <label for="checkkbox"> <p style="font-family: 'Noto Sans', sans-serif; color:black; font-size: 20px;">I am doing this in my senses and under doctors advice. I am medically fit. </p></label><br>
+                    <button class="button" type="submit">SUBMIT</button>
+                    <button class="button" type="reset">RESET</button>
+                </form>
+</body>
+</html>

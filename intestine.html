@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTESTINE</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Noto+Sans&family=Source+Sans+Pro&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Noto+Sans&family=Source+Sans+Pro&display=swap');
+     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Sans+Pro&display=swap');
+    h1 {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 50px;
+        color: black;
+        text-align: center;
+    }
+    h2{
+        font-family: 'Noto Sans', sans-serif;
+        color: black;
+    }
+    * {
+box-sizing: border-box;
+}
+.column {
+float: left;
+width: 33.33%;
+padding: 5px;
+}
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+    @media screen and (max-width: 500px) {
+.column {
+width: 100%;
+}}
+    a:-webkit-any-link {
+color: red;
+cursor: pointer;
+text-decoration: none;
+}
+    body { 
+        background-color: black;
+        background-image: url('donation.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+.formm{
+    font-size: 35px;
+}
+.button {
+  background-color: dimgrey;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    input[type=text] {
+        background-color: black;
+        border: none;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+        width: 30%;
+    padding: 10px 29px;
+    margin: 4px -1px;
+    cursor: default;
+      }
+      input[type=number] {
+        background-color: black;
+        border: none;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+        width: 77%;
+    padding: 10px 29px;
+    margin: 4px -1px;
+    cursor: default;
+      }
+      input[type=date] {
+        background-color: black;
+        border: none;
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+        width: 77%;
+    padding: 10px 29px;
+    margin: 4px -1px;
+    cursor: default;
+      }
+      input[type=checkbox] {
+    transform: scale(1.5);
+}
+    </style>
+</style>
+<body>
+        <h1><u>Living Donor Intestine Transplant</u></h1>
+        <h2>An intestinal transplant is a last resort treatment option for patients with intestinal failure who develop life-threatening complications. Currently, 250 people in the United States are on the national transplant waiting list for donor intestines. Small intestine failure most often requires transplant, the large intestine is not necessary to sustain life. What are the basics of intestine donation? Read below for more information.</h2>
+        <h1>When is an intestine donation needed?</h1>
+        <h2>Intestinal transplants are performed following intestinal failure in an individual. In intestinal failure, the intestines can no longer digest food or absorb the fluids, electrolytes and nutrients essential for life. Patients must receive total parenteral nutrition (TPN), which provides liquid nutrition through a catheter or needle inserted into the body. Long-term TPN can result in complications including bone disorders, catheter-related infections and liver failure. Intestinal failure in adults may be caused by vascular occlusion; Crohn’s disease; abdominal trauma; radiation enteritis; surgical adhesions; pseudo-obstruction; or a desmoid tumor.</h2>
+        <h1>How does an intestinal transplant work?</h1>
+        <h2>The types of intestinal transplant include small bowel transplant, multivisceral transplant, and combined liver and intestinal transplant. Most intestinal transplants are performed together with a liver transplant.
+  
+            <br>Transplant recipients may take a number of medications after transplant, many for the rest of their lives. The medications help reduce the risk of complications after transplant. Only a few transplant centers in the world offer intestinal transplantation as a treatment option for intestinal failure and complications related to parenteral nutrition (PN).</h2>
+        <h1>How can my donated intestine help?</h1>
+        <h2>Intestine donations are lifesaving. An intestinal transplant is often the only option left to patients who have developed serious complications from TPN and intestinal failure. Donors can give years of life to intestinal transplant recipients.</h2>
+        <br><br><h1 class="formm">PLEASE FILL OUT THE FORM IF YOU WANT TO DONATE/ACCEPT ORGAN INTESTINE</h1>
+        <div class="center">
+            <form action="intestine.php" method="post">
+                    <input type="text" name="name" id="text" placeholder="Enter your Name: "><br><br>
+                    <input type="text" name="number" id="cnumber" placeholder="Enter your Contact Number: "><br><br>
+                    <input type="text" name="type" id="type" placeholder="Do you want to donate or accept the Organ: "><br><br>
+                    <input type="text" name="appointment" id=appointment placeholder="Enter your appointment date: "><br><br>  
+                    <input type="checkbox" id="checkkbox" name="checkkbox" value="checkkbox">
+                    <label for="checkkbox"> <p style="font-family: 'Noto Sans', sans-serif; color:black; font-size: 20px;">I am doing this in my senses and under doctors advice. I am medically fit. </p></label><br>
+                    <button class="button" type="submit">SUBMIT</button>
+                    <button class="button" type="reset">RESET</button>
+                </form>
+</body>
+</html>
